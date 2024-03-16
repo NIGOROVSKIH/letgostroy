@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var boostPurchased = localStorage.getItem('boostPurchased');
             
             // Определяем значение для увеличения баланса в зависимости от покупки улучшения
-            var increment = (boostPurchased === 'true') ? 0.00500 : 0.00100;
+            var increment = (boostPurchased === 'true') ? 0.00500 : 10.00100;
 
             // Отображаем полосу прогресса
             var progressBarContainer = document.querySelector('.progress-bar-container');
